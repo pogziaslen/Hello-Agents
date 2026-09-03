@@ -10,7 +10,7 @@ This project takes its learning direction from [Datawhale's Hello-Agents](https:
 - Multi-agent applications, deep research, and agentic reinforcement learning
 - Community projects and interview preparation
 
-The upstream repository is included as a Git submodule at `upstream/hello-agents` so this website repository stays lightweight and the original project history, attribution, and updates remain clear.
+The upstream repository is kept as an explicit external reference rather than vendored into this front-end repository. That keeps the website lightweight, preserves the original project history, and makes attribution and upstream updates clear.
 
 ## License and attribution
 
@@ -18,16 +18,10 @@ The upstream project is distributed under **Creative Commons Attribution-NonComm
 
 Pinned upstream commit: [`45dd84e`](https://github.com/datawhalechina/hello-agents/commit/45dd84e626a91997294ac8d4d44f18b29a411c6e)
 
-## Clone with the reference
+## Read the upstream material locally
 
 ```bash
-git clone --recurse-submodules https://github.com/jjyaoao-svg/Hello-Agents.git
-```
-
-Update the reference intentionally when needed:
-
-```bash
-git submodule update --remote --merge upstream/hello-agents
-git add upstream/hello-agents
-git commit -m "docs: update upstream learning reference"
+git clone https://github.com/datawhalechina/hello-agents.git upstream-hello-agents
+cd upstream-hello-agents
+git checkout 45dd84e626a91997294ac8d4d44f18b29a411c6e
 ```

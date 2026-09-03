@@ -1,0 +1,12 @@
+{
+  "name": "Hello Agents",
+  "short_name": "HelloAgents",
+  "description": "A free, project-first course on building AI-native agents from scratch.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#d8f600",
+  "theme_color": "#d8f600",
+  "icons": [
+    { "src": "/icon.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
