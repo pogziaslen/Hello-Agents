@@ -1,0 +1,3 @@
+[submodule "upstream/hello-agents"]
+	path = upstream/hello-agents
+	url = https://github.com/datawhalechina/hello-agents.git
